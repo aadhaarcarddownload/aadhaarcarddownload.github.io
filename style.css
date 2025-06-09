@@ -8,10 +8,15 @@ p {
   line-height: 1.5;
   font-size: 18px;
 }
+.res{
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 .r{
   width: 95%;
-  padding-left: 30px;
+  padding-left: 0.5px;
 
 }
 .footer {
