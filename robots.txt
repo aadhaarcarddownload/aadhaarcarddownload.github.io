@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aadhaarcarddownload.github.io/sitemap.xml
