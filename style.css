@@ -88,13 +88,13 @@ p {
 }
 
 div.example {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 @media screen and (max-width: 800px) {
   div.example {
-    padding: 0%;
+    padding: 1%;
   }
 }
 table {
