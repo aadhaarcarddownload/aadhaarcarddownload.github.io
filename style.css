@@ -1,22 +1,21 @@
 .example {
   position: relative;
-  margin: 30px auto;
-  height: 370px; width: 580px;
+  display: inline-block;
+  padding: 10px;
   border-radius: 15px;
   background-color: #fcfcfc;
 }
 
 .example::before {
-  content: '';
+  content: "";
   position: absolute;
-  top: 50%; left: 50%; z-index: -1;
-  transform: translate(-50%, -50%);
-  height: 100%; width: 100%;
-  padding: 20px;
-  border-radius: 30px;
+  inset: -10px;
   background-image: linear-gradient(to right bottom, #f3f3f3, #bebebe);
   filter: blur(7px);
+  border-radius: 25px;
+  z-index: -1;
 }
+
 .site-content{
   word-break: keep-all;
   word-wrap: break-word;
